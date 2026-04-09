@@ -1,0 +1,41 @@
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border: 2px solid;
+    margin-bottom: 20px;
+}
+#clock{
+    font-family: monospace;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    color:yellow;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    width: 100%;
+    
+
+}
+@media(max-width:585px) {
+    #clock-container{
+    width:100%;
+}
+#clock{
+    font-family: monospace;
+    font-size: 3.2rem;
+    
+    
+
+}
+}
+@media(max-width:412px){
+#time-disp{
+    display: none;
+}
+}
+
+
+

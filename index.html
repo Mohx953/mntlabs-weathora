@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mahamule Ntshangase">
+    <title>Weathora</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+    <link rel="icon" type="image/jpeg" href="fav_icon.jpeg">
+    <link rel="stylesheet" href="watch.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+
+    <!-- Favicon -->
+
+
+    <!-- iPhone/iPad home screen -->
+    <link rel="apple-touch-icon" href="/mnt_logo.png">
+
+    <!-- Android / PWA home screen -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#000000">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="logo.png" alt="Weathora Logo" class="logo"></a>
+            <li class="nav-item dropdown" >
+                            <button class="btn btn-sm btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="align-items: center;">
+                                V1
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">v2</a></li>
+                                
+                            </ul>
+                        </li>
+        </div>
+    </header>
+
+    <div class="menu-toogle" id="menu-toogle">
+        ≡
+    </div>
+
+    <nav class="nav-bar">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- <li><a href="news.html">News</a>   -->
+
+
+            <li><a href="weathermap.html">Weather Map</a></li>
+            <li><a href="https://unibudget.ct.ws/">UniBudget</a></li>
+            <!-- <li><ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">v1</a></li>
+
+            </ul>
+        </li> -->
+        
+        </ul>
+
+    </nav>
+
+    <div class="intro-section">
+        <p class="intro-text">Get real-time weather information for any city in the world. Simply enter a city name and
+            discover current temperature, humidity levels, and weather conditions instantly.</p>
+        <p class="designer-credit">Designed by Mahamule Ntshangase</p>
+    </div>
+
+    <form action="" class="weatherForm">
+        <input type="text" class="cityInput" placeholder="Enter City">
+        <button type="submit">Get Weather</button>
+        <br><br>
+        <center>
+            <div id="clock-container">
+                <div class="intro-section" id="time-disp">
+                    <h3 style="color:white;">Time</h3>
+                </div> <br>
+                <div id="clock">00:00:00</div>
+        </center>
+        </div>
+    </form>
+
+    <div class="card" style="display: none;">
+        <!--- <h1 class="cityDisplay"></h1>
+    <p class="tempDisplay">90°F</p>
+    <p class="humidityDisplay">Humidity: 75%</p>
+    <p class="descDisplay">Clear Sky</p>
+    <p class="weatherEmoji">☀️</p>
+    <p class="errorDisplay">Please enter a city</p>-->
+    </div>
+
+
+    <!-- <div class="clock-wrapper">
+   
+<div class="clock">
+    <div class="wrapper">
+        <label for="" style="--i: 1"><span>1</span></label>
+        <label for="" style="--i: 2"><span>2</span></label>
+        <label for="" style="--i: 3"><span>3</span></label>
+        <label for="" style="--i: 4"><span>4</span></label>
+        <label for="" style="--i: 5"><span>5</span></label>
+        <label for="" style="--i: 6"><span>6</span></label>
+        <label for="" style="--i: 7"><span>7</span></label>
+        <label for="" style="--i: 8"><span>8</span></label>
+        <label for="" style="--i: 9"><span>9</span></label>
+        <label for="" style="--i: 10"><span>10</span></label>
+        <label for="" style="--i: 11"><span>11</span></label>
+        <label for="" style="--i: 12"><span>12</span></label>
+
+        <div class="point"></div>
+        <div class="stalk-second"></div>
+        <div class="stalk-minute"></div>
+        <div class="stalk-hour"></div>
+    </div>
+</div>
+</div><br><br> -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script src="script.js"></script>
+    <script src="watch.js"></script>
+    <script src="mntlabs-ai.js"></script>
+</body>
+
+<footer>
+    <hr>
+    <p id="p2">&copy; 2026 Weathora. All rights reserved.</p>
+</footer>
+
+</html>
